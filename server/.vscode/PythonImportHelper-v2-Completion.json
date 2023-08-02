@@ -1,0 +1,488 @@
+[
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.get_db",
+        "description": "app.db.get_db",
+        "isExtraImport": true,
+        "detail": "app.db.get_db",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.get_db",
+        "description": "app.db.get_db",
+        "isExtraImport": true,
+        "detail": "app.db.get_db",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "GroupedFindings",
+        "importPath": "app.models.grouped_findings",
+        "description": "app.models.grouped_findings",
+        "isExtraImport": true,
+        "detail": "app.models.grouped_findings",
+        "documentation": {}
+    },
+    {
+        "label": "RawFindings",
+        "importPath": "app.models.raw_findings",
+        "description": "app.models.raw_findings",
+        "isExtraImport": true,
+        "detail": "app.models.raw_findings",
+        "documentation": {}
+    },
+    {
+        "label": "grouped_findings",
+        "importPath": "app.api.api_v1.endpoints",
+        "description": "app.api.api_v1.endpoints",
+        "isExtraImport": true,
+        "detail": "app.api.api_v1.endpoints",
+        "documentation": {}
+    },
+    {
+        "label": "raw_findings",
+        "importPath": "app.api.api_v1.endpoints",
+        "description": "app.api.api_v1.endpoints",
+        "isExtraImport": true,
+        "detail": "app.api.api_v1.endpoints",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "REAL",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "REAL",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "REAL",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "api_router",
+        "importPath": "app.api.api_v1.api",
+        "description": "app.api.api_v1.api",
+        "isExtraImport": true,
+        "detail": "app.api.api_v1.api",
+        "documentation": {}
+    },
+    {
+        "label": "get_grouped_findings",
+        "kind": 2,
+        "importPath": "app.api.api_v1.endpoints.grouped_findings",
+        "description": "app.api.api_v1.endpoints.grouped_findings",
+        "peekOfCode": "def get_grouped_findings(db: Session = Depends(get_db)):\n    grouped_findings = db.query(GroupedFindings).all()\n    return grouped_findings",
+        "detail": "app.api.api_v1.endpoints.grouped_findings",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.api.api_v1.endpoints.grouped_findings",
+        "description": "app.api.api_v1.endpoints.grouped_findings",
+        "peekOfCode": "router = APIRouter()\n@router.get(\"/\")\ndef get_grouped_findings(db: Session = Depends(get_db)):\n    grouped_findings = db.query(GroupedFindings).all()\n    return grouped_findings",
+        "detail": "app.api.api_v1.endpoints.grouped_findings",
+        "documentation": {}
+    },
+    {
+        "label": "get_raw_findings_by_id",
+        "kind": 2,
+        "importPath": "app.api.api_v1.endpoints.raw_findings",
+        "description": "app.api.api_v1.endpoints.raw_findings",
+        "peekOfCode": "def get_raw_findings_by_id(id: int, db: Session = Depends(get_db)):\n    raw_findings = db.query(RawFindings).filter(RawFindings.id == id).first()\n    return raw_findings",
+        "detail": "app.api.api_v1.endpoints.raw_findings",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.api.api_v1.endpoints.raw_findings",
+        "description": "app.api.api_v1.endpoints.raw_findings",
+        "peekOfCode": "router = APIRouter()\n@router.get(\"/{id}\")\ndef get_raw_findings_by_id(id: int, db: Session = Depends(get_db)):\n    raw_findings = db.query(RawFindings).filter(RawFindings.id == id).first()\n    return raw_findings",
+        "detail": "app.api.api_v1.endpoints.raw_findings",
+        "documentation": {}
+    },
+    {
+        "label": "api_router",
+        "kind": 5,
+        "importPath": "app.api.api_v1.api",
+        "description": "app.api.api_v1.api",
+        "peekOfCode": "api_router = APIRouter()\napi_router.include_router(grouped_findings.router, prefix=\"/grouped-findings\", tags=[\"grouped\"])\napi_router.include_router(raw_findings.router, prefix=\"/raw-findings\", tags=[\"raw\"])",
+        "detail": "app.api.api_v1.api",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "app.db.get_db",
+        "description": "app.db.get_db",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "app.db.get_db",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "kind": 5,
+        "importPath": "app.db.get_db",
+        "description": "app.db.get_db",
+        "peekOfCode": "DATABASE_URL = \"sqlite:///./data/findings.db\"\nengine = create_engine(DATABASE_URL, connect_args={\"check_same_thread\": False})\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "app.db.get_db",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "app.db.get_db",
+        "description": "app.db.get_db",
+        "peekOfCode": "engine = create_engine(DATABASE_URL, connect_args={\"check_same_thread\": False})\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "app.db.get_db",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "app.db.get_db",
+        "description": "app.db.get_db",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "app.db.get_db",
+        "documentation": {}
+    },
+    {
+        "label": "GroupedFindings",
+        "kind": 6,
+        "importPath": "app.models.grouped_findings",
+        "description": "app.models.grouped_findings",
+        "peekOfCode": "class GroupedFindings(Base):\n    __tablename__ = \"grouped_findings\"\n    id = Column(Integer, primary_key=True, index=True)\n    grouping_type = Column(String)\n    grouping_key = Column(String)\n    severity = Column(String)\n    grouped_finding_created = Column(String)\n    sla = Column(String)\n    description = Column(String)\n    security_analyst = Column(String)",
+        "detail": "app.models.grouped_findings",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "app.models.grouped_findings",
+        "description": "app.models.grouped_findings",
+        "peekOfCode": "Base = declarative_base()\nclass GroupedFindings(Base):\n    __tablename__ = \"grouped_findings\"\n    id = Column(Integer, primary_key=True, index=True)\n    grouping_type = Column(String)\n    grouping_key = Column(String)\n    severity = Column(String)\n    grouped_finding_created = Column(String)\n    sla = Column(String)\n    description = Column(String)",
+        "detail": "app.models.grouped_findings",
+        "documentation": {}
+    },
+    {
+        "label": "RawFindings",
+        "kind": 6,
+        "importPath": "app.models.raw_findings",
+        "description": "app.models.raw_findings",
+        "peekOfCode": "class RawFindings(Base):\n    __tablename__ = \"raw_findings\"\n    id = Column(Integer, primary_key=True)\n    source_security_tool_name = Column(String)\n    source_security_tool_id = Column(String)\n    source_collaboration_tool_name = Column(String)\n    source_collaboration_tool_id = Column(String)\n    severity = Column(String)\n    finding_created = Column(String)\n    ticket_created = Column(String)",
+        "detail": "app.models.raw_findings",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "app.models.raw_findings",
+        "description": "app.models.raw_findings",
+        "peekOfCode": "Base = declarative_base()\nclass RawFindings(Base):\n    __tablename__ = \"raw_findings\"\n    id = Column(Integer, primary_key=True)\n    source_security_tool_name = Column(String)\n    source_security_tool_id = Column(String)\n    source_collaboration_tool_name = Column(String)\n    source_collaboration_tool_id = Column(String)\n    severity = Column(String)\n    finding_created = Column(String)",
+        "detail": "app.models.raw_findings",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "app = FastAPI()\napp.include_router(api_router, prefix=\"/api/v1\")",
+        "detail": "main",
+        "documentation": {}
+    }
+]
