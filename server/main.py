@@ -1,6 +1,6 @@
 # TODO: Add CORS
 # from starlette.middleware.cors import CORSMiddleware
-from fastapi import FastAPI
+# Based on: https://github.com/mfreeborn/fastapi-sqlalchemy
 from fastapi import FastAPI
 from app.api.api_v1.api import api_router
 from fastapi.middleware.cors import CORSMiddleware
