@@ -1,8 +1,8 @@
 from typing import List, Optional, Union
-
 from pydantic import BaseModel
 from sqlalchemy import create_engine, Column, Integer, String, REAL
 from sqlalchemy.ext.declarative import declarative_base
+
 Base = declarative_base()
 
 
@@ -20,3 +20,8 @@ class GroupedFindings(Base):
     owner = Column(String)
     status = Column(String)
     progress = Column(REAL)
+
+class GroupedFindingsStats(BaseModel):
+    severity: str
+    count: int
+
