@@ -17,10 +17,11 @@ class GroupedFindings(Base):
     description = Column(String)
     security_analyst = Column(String)
     owner = Column(String)
+    workflow = Column(String)
     status = Column(String)
     progress = Column(REAL)
+
 
 class GroupedFindingsStats(BaseModel):
     severity: str
     count: int
-
