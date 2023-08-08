@@ -23,12 +23,17 @@ const Severity = ({ level }: { level: string }) => (
 );
 type Props = {
   groupedFindingsResults: GroupedFindingsResult[];
-  // const [expandedRow, setExpandedRow] = useState<number | undefined>(undefined);
+  loading: boolean;
   expandedRow?: number;
   setExpandedRow: Dispatch<SetStateAction<number | undefined>>;
 };
 export default function GroupedFindingsTable(props: Props) {
-  const { groupedFindingsResults, expandedRow, setExpandedRow } = props;
+  const {
+    groupedFindingsResults,
+    expandedRow,
+    setExpandedRow,
+    loading = true,
+  } = props;
 
   const isAnyRowExpanded = typeof expandedRow !== "undefined";
 
@@ -39,7 +44,6 @@ export default function GroupedFindingsTable(props: Props) {
     groupedFindingsResults?.map((groupedFindingResult) => {
       return {
         severity: <Severity level={groupedFindingResult.severity} />,
-        // convert timestamp like 2022-03-05 15:25:23.341094 to local time like 3/5/23
         created: (
           <TimeWithTooltip
             isoTimeStamp={groupedFindingResult.grouped_finding_created}
@@ -61,6 +65,7 @@ export default function GroupedFindingsTable(props: Props) {
         progress: groupedFindingResult.progress,
       };
     }) ?? [];
+
   const headings = [
     { name: "Severity" },
     { name: "Created" },
@@ -94,16 +99,26 @@ export default function GroupedFindingsTable(props: Props) {
             <Fragment key={crypto.randomUUID()}>
               <tr
                 className={clsx(
-                  { active: isRowExpanded(index) },
+                  {
+                    active: isRowExpanded(index),
+                    "animate-pulse bg-gray-200": loading,
+                  },
                   "cursor-pointer"
                 )}
                 onClick={() => setExpandedRow(index)}
               >
-                {Object.values(result).map((cellContent, index) => (
+                {Object.values(result).map((cellContent) => (
                   <td key={crypto.randomUUID()} className="py-3.5 px-3">
                     <div className="">
-                      <div className="whitespace-nowrap text-sm font-medium leading-6">
-                        {cellContent}
+                      <div
+                        className={
+                          "whitespace-nowrap text-sm font-medium leading-6"
+                        }
+                      >
+                        {loading && (
+                          <div className="h-4 bg-gray-300 rounded w-1/2"></div>
+                        )}
+                        {!loading && <div>{cellContent}</div>}
                       </div>
                     </div>
                   </td>

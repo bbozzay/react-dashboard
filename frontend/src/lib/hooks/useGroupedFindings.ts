@@ -15,12 +15,24 @@ export type GroupedFindingsResult = {
   progress: number;
 };
 
-export function useGroupedFindings() {
+type UseGroupedFindingsParams = {
+  limit?: number;
+  skip?: number;
+};
+export function useGroupedFindings(params: UseGroupedFindingsParams = {}) {
+  const { limit = 25, skip = 0 } = params;
+  const query = new URLSearchParams({
+    limit: String(limit),
+    skip: String(skip),
+  });
   return useQuery<GroupedFindingsResult[], Error>({
-    queryKey: ["grouped"],
+    queryKey: ["grouped", skip],
     queryFn: async () => {
-      const res = await fetch("http://localhost:8000/api/v1/grouped-findings");
+      const res = await fetch(
+        `http://localhost:8000/api/v1/grouped-findings?${query.toString()}`
+      );
       return res.json();
     },
+    keepPreviousData: true,
   });
 }
