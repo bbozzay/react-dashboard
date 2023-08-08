@@ -1,7 +1,7 @@
 "use client";
 
 import clsx from "clsx";
-import { Dispatch, Fragment, SetStateAction } from "react";
+import { Dispatch, Fragment, SetStateAction, memo } from "react";
 import { ExpandedRow } from "./ExpandedRow";
 import { GroupedFindingsResult } from "@/lib/hooks/useGroupedFindings";
 import { TimeWithTooltip } from "./TimeWithTooltip";
@@ -27,7 +27,7 @@ type Props = {
   expandedRow?: number;
   setExpandedRow: Dispatch<SetStateAction<number | undefined>>;
 };
-export default function GroupedFindingsTable(props: Props) {
+function GroupedFindingsTable(props: Props) {
   const {
     groupedFindingsResults,
     expandedRow,
@@ -136,3 +136,4 @@ export default function GroupedFindingsTable(props: Props) {
     </div>
   );
 }
+export default memo(GroupedFindingsTable);
