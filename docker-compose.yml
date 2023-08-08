@@ -1,0 +1,22 @@
+version: "3"
+
+services:
+  frontend:
+    build:
+      context: ./frontend
+    container_name: silk-frontend
+    restart: unless-stopped
+    ports:
+      - 127.0.0.1:3000:3000
+    depends_on:
+      - server
+
+  server:
+    build:
+      context: ./server
+    container_name: silk-server
+    restart: unless-stopped
+    volumes:
+      - ./app:/srv/app
+    ports:
+      - 127.0.0.1:8000:8000
