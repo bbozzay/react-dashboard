@@ -1,4 +1,14 @@
 # silk-dashboard
 
-- Start backend (see server/README)
-- Start frontend (see frontend/README)
+## Get Started
+
+### Docker
+
+```
+docker-compose -f .\docker-compose.yml up -d --build
+```
+
+### Manually
+
+- server/README
+- frontend/README
