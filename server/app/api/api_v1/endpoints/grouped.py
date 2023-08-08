@@ -6,9 +6,6 @@ from fastapi import APIRouter, Depends
 from app.models.grouped_findings import GroupedFindings, GroupedFindingsStats
 from typing import List
 
-# Define query to select severity and count rows for each distinct value
-query = (select([GroupedFindings.severity, func.count(GroupedFindings.id)]).group_by(GroupedFindings.severity))
-
 router = APIRouter()
 
 @router.get("/")
