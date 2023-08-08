@@ -1,4 +1,3 @@
-from typing import List
 from sqlalchemy.orm import Session
 from app.db.get_db import get_db
 

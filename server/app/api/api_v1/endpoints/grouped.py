@@ -12,8 +12,8 @@ query = (select([GroupedFindings.severity, func.count(GroupedFindings.id)]).grou
 router = APIRouter()
 
 @router.get("/")
-def get_grouped_findings(db: Session = Depends(get_db)):
-    grouped_findings = db.query(GroupedFindings).all()
+def get_grouped_findings(db: Session = Depends(get_db), skip: int = 0, limit: int = 50):
+    grouped_findings = db.query(GroupedFindings).offset(skip).limit(limit).all()
     return grouped_findings
 
 @router.get("/severity-stats/", response_model=List[GroupedFindingsStats])
