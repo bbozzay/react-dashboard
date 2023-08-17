@@ -27,6 +27,7 @@ type Props = {
   expandedRow?: number;
   setExpandedRow: Dispatch<SetStateAction<number | undefined>>;
 };
+
 function GroupedFindingsTable(props: Props) {
   const {
     groupedFindingsResults,
@@ -62,7 +63,19 @@ function GroupedFindingsTable(props: Props) {
         owner: groupedFindingResult.owner,
         workflow: groupedFindingResult.workflow,
         status: groupedFindingResult.status,
-        progress: groupedFindingResult.progress,
+        progress: (
+          <div className="bg-gray-400 relative h-6 rounded-full overflow-hidden">
+            <div
+              style={{
+                width: `${groupedFindingResult.progress * 100}%`,
+              }}
+              className="bg-blue-600 rounded-full dark:bg-blue-500 h-full"
+            ></div>
+            <div className="absolute top-0 left-0">
+              {Math.round(groupedFindingResult.progress * 100) / 100}
+            </div>
+          </div>
+        ),
       };
     }) ?? [];
 
